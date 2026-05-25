@@ -18,16 +18,15 @@ p{
 }
 img{
     border-radius: 10%;
-    max-width: 95%;
+    max-width: 90%;
     padding: 10px;
     transition-duration: 0.4s;
-    filter: blur(10px);
 }
 img:hover{
-    filter: blur(0px);
+    max-width: 95%;
 }
 img.portrait{
-    filter: blur(0px);
+    
     float:left;
     max-width: 40%;
 }
