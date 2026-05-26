@@ -77,7 +77,7 @@ nav {
 
 /* button styling for nav bar 
 */
-.linkbutton, #buttonleft, #buttonright{
+a.linkbutton, #buttonleft, #buttonright{
     text-align: center;
     margin:auto;
     width:20%;
