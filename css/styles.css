@@ -26,8 +26,7 @@ h5 {
 /* width and hight for the iframe on the front page
 */
 iframe {
-    width: 55%;
-    height: 290px;
+    width: 50%;
 }
 
 /* automatic indentation for only paragraphs, not headers 
@@ -55,9 +54,8 @@ img:hover {
 */
 img.portrait {
     float: left;
-    max-width: 40%;
+    width: 30%;
 }
-
 /* main header styling with gradient 
 */
 header {
