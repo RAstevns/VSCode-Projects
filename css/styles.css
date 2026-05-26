@@ -88,7 +88,11 @@ a.linkbutton, #buttonleft, #buttonright{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-
+/* link buttons were inheriting the visited color
+*/
+a.linkbutton:visited{
+    color: rgb(255, 255, 255);
+}
 /*button hover effect - changes the border to red 
 */
 a.linkbutton:hover, #buttonleft:hover, #buttonright:hover{
