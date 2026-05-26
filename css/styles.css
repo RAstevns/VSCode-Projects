@@ -1,42 +1,65 @@
-body{
+body {
     background-color: black;
     color: white;
 }
-a:link{
+
+/*  links were difficult to see 
+*/
+a:link {
     color: aquamarine;
 }
-a:visited{
+
+a:visited {
     color: plum;
 }
-/* 
+
+/* default font & text color
 */
-p h2, h3, h4, h5{
-    color:white;
+p h2,
+h3,
+h4,
+h5 {
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-iframe{
-    width: 800px;
-    height: 300px;
-    
+/* width and hight for the iframe on the front page
+*/
+iframe {
+    width: 55%;
+    height: 290px;
 }
-p{
+
+/* automatic indentation for only paragraphs, not headers 
+*/
+p {
     text-indent: 30px;
 }
-img{
+
+/*  Default image styling
+*/
+img {
     border-radius: 10%;
     max-width: 90%;
     padding: 10px;
     transition-duration: 0.4s;
 }
-img:hover{
+
+/*  images in the "cool images tab" to expand on hover
+*/
+img:hover {
     max-width: 95%;
 }
-img.portrait{
-    
-    float:left;
+
+/* this locks the self portrait so it doesn't expand and mess up the text wrapping
+*/
+img.portrait {
+    float: left;
     max-width: 40%;
 }
+
+/* main header styling with gradient 
+*/
 header {
     background-image: linear-gradient(to bottom, red, blue);
     color: white;
@@ -45,40 +68,62 @@ header {
     display: flex;
     border-radius: 15px 15px 0px 0px;
 }
-nav{
+
+/* nav bar 
+*/
+nav {
     display: flex;
-    width : 100%;
+    width: 100%;
     justify-content: center;
 }
-button{
-    position:sticky;
+
+/* button styling for nav bar 
+*/
+button {
+    position: sticky;
     transition-duration: 0.2s;
     padding: 10px;
-    border : 2px solid blue;
+    border: 2px solid blue;
     background-color: blue;
     color: rgb(255, 255, 255);
 }
-button:hover{
+
+/*button hover effect - changes the border to red 
+*/
+button:hover {
     background-color: rgb(0, 58, 165);
-    border :2px solid red;
+    border: 2px solid red;
     cursor: pointer;
 }
-#buttonleft{
-    border-radius: 0px 0px 0px 15px;}
 
-#buttonright{
+/* rounds the left and rightmost buttons 
+*/
+#buttonleft {
+    border-radius: 0px 0px 0px 15px;
+}
+
+#buttonright {
     border-radius: 0px 0px 15px 0px;
 }
-table, th, td{
+
+/* table formatting 
+*/
+table,
+th,
+td {
     width: 100%;
     border: 1px solid green;
     padding: 10px;
 }
-.lefthalf{
-float: left;
-max-width: 50%
+
+/* scaling for the images so the remain in 2 distinct columns - yes i could've also called them columns instead of leftmost and rightmost
+*/
+.lefthalf {
+    float: left;
+    max-width: 50%;
 }
-.righthalf{
-float: right;
-max-width: 50%
+
+.righthalf {
+    float: right;
+    max-width: 50%
 }
