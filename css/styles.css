@@ -77,22 +77,21 @@ nav {
 
 /* button styling for nav bar 
 */
-button {
-    position: sticky;
+#linkbutton, #buttonleft, #buttonright{
+    text-align: center;
+    margin:auto;
+    width:20%;
     transition-duration: 0.2s;
     padding: 10px;
     border: 2px solid blue;
     background-color: blue;
     color: rgb(255, 255, 255);
-    & > a{
-        color: white;
-        text-decoration: none;
-    }
+    text-decoration: none;
 }
 
 /*button hover effect - changes the border to red 
 */
-button:hover {
+#linkbutton:hover, #buttonleft:hover, #buttonright:hover{
     background-color: rgb(0, 58, 165);
     border: 2px solid red;
     cursor: pointer;
