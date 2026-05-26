@@ -77,7 +77,7 @@ nav {
 
 /* button styling for nav bar 
 */
-#linkbutton, #buttonleft, #buttonright{
+.linkbutton, #buttonleft, #buttonright{
     text-align: center;
     margin:auto;
     width:20%;
@@ -91,7 +91,7 @@ nav {
 
 /*button hover effect - changes the border to red 
 */
-#linkbutton:hover, #buttonleft:hover, #buttonright:hover{
+.linkbutton:hover, #buttonleft:hover, #buttonright:hover{
     background-color: rgb(0, 58, 165);
     border: 2px solid red;
     cursor: pointer;
